@@ -1,10 +1,10 @@
-package pkg.goldendust.gym;
+package pkg.goldendust.threading_gym;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-// Enum to account for the size and number all the wights in the gym.
+// Enum to account for the size and number all the weights in the gym.
 public enum Weight {
 	SMALL_5LBS, MEDIUM_10LBS, LARGE_25LBS;
 	

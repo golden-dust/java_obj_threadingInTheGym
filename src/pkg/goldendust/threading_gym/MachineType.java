@@ -1,4 +1,4 @@
-package pkg.goldendust.gym;
+package pkg.goldendust.threading_gym;
 
 import java.util.Random;
 
@@ -15,7 +15,7 @@ public enum MachineType {
     CABLECROSSOVERMACHINE("Cable Crossovers");
 	
 	public final String machineName;
-	
+
 	MachineType(String machineName) {
 		this.machineName = machineName;
 	}

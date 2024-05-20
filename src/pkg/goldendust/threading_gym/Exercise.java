@@ -1,4 +1,4 @@
-package pkg.goldendust.gym;
+package pkg.goldendust.threading_gym;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +31,7 @@ public class Exercise {
 	public int getDuration() {
 		return duration;
 	}
-	
+
 	@Override
 	public String toString() {
 		int totalWeight = (this.weight.get(Weight.SMALL_5LBS) * 5) + (this.weight.get(Weight.MEDIUM_10LBS) * 10) + (this.weight.get(Weight.LARGE_25LBS) * 25);
